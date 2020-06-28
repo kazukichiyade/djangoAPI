@@ -1,4 +1,14 @@
 {
-    "python.pythonPath": "/Users/PAL/.pyenv/versions/3.8.3/bin/python",
-    "git.ignoreLimitWarning": true
+    // "python.pythonPath": "/Users/PAL/.pyenv/versions/3.8.3/bin/python",
+    "python.pythonPath":"/Users/PAL/program/Python/djangoAPI/bin/python",
+    "git.ignoreLimitWarning": true,
+    "team.showWelcomeMessage": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "git.enableSmartCommit": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "files.autoSave": "onWindowChange",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
 }
